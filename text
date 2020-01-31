@@ -1,10 +1,14 @@
-argent ← lire décimal
-prix ← lire décimal
-bonbon ← 0
+Algorithme calculbonbon
+Début
 
-Si argent >0 et prix >0
-	tant que argent >= prix
-		argent ← argent – prix
-		bonbon ← bonbon+1
-	Fin tant que
-afficher bonbon
+	argent ← lire décimal
+	prix ← lire décimal
+	bonbon ← 0
+
+	Si argent >0 et prix >0
+		tant que argent >= prix
+			argent ← argent – prix
+			bonbon ← bonbon+1
+		Fin tant que
+	afficher bonbon
+Fin
